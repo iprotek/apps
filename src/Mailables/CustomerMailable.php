@@ -19,11 +19,11 @@ class CustomerMailable extends Mailable
      *
      * @return void
      */
-    public function __construct( SmsTicket $ticket )
+    public function __construct( )
     {
         //
         //Kaizen Suggestion Approval | 000000123 - Sample
-        $this->subject= 'Helpdesk'.config('app.name')." | ".$ticket->title;  
+        //$this->subject= 'Helpdesk'.config('app.name')." | ".$ticket->title;  
 
     }
 

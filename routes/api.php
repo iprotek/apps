@@ -3,8 +3,6 @@
 use Illuminate\Support\Facades\Route; 
 use iProtek\Core\Http\Controllers\Manage\FileUploadController; 
 use iProtek\Core\Http\Controllers\AppVariableController;
-use iProtek\SmsSender\Http\Controllers\MessageController;
-use iProtek\SmsSender\Http\Controllers\SmsClientApiRequestLinkController;
 
 Route::prefix('api')->middleware('api')->name('api')->group(function(){ 
 
