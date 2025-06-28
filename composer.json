@@ -1,6 +1,6 @@
 {
     "name": "iprotek/apps",
-    "description": "Application management and access",
+    "description": "Application management and access of iprotek",
     "keywords": ["laravel", "plugin", "applications"],
     "authors": [
         {
