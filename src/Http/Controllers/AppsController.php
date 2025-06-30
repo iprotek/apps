@@ -15,7 +15,7 @@ class AppsController extends _CommonController
         //GET APPS FROM apps.iprotek.net
         $response = AppsHttpHelper::get_client("api/application-list");
         return $response;
-        return config("iprotek_apps.app_system_url");
+        //return config("iprotek_apps.app_system_url");
     }
 
 }
